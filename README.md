@@ -1,2 +1,260 @@
 # Trabalho-
 giovana gomes
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Beauty Glam</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<div class="container">
+
+<a class="navbar-brand" href="#">💄 Beauty Glam</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="#inicio">Início</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#sobre">Sobre</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#servicos">Serviços</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#galeria">Galeria</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#contato">Contato</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+</nav>
+
+<!-- Banner -->
+
+<section id="inicio" class="container-fluid text-center text-white banner">
+
+<div class="container">
+
+<h1>Beauty Glam</h1>
+
+<p>
+Realçando sua beleza com maquiagem profissional.
+</p>
+
+<a href="#contato" class="btn btn-light btn-lg">
+Agendar Agora
+</a>
+
+</div>
+
+</section>
+
+<!-- Sobre -->
+
+<section id="sobre" class="container py-5">
+
+<h2 class="text-center mb-4">Sobre</h2>
+
+<p class="text-center">
+
+A Beauty Glam é especializada em maquiagem profissional para festas,
+casamentos, ensaios e eventos especiais. Nosso objetivo é valorizar
+a beleza de cada cliente com técnicas modernas e produtos de alta
+qualidade.
+
+</p>
+
+</section>
+
+<!-- Serviços -->
+
+<section id="servicos" class="container py-5">
+
+<h2 class="text-center mb-5">
+Nossos Serviços
+</h2>
+
+<div class="row">
+
+<div class="col-md-4">
+
+<div class="card shadow">
+
+<img src="images/maquiagem1.jpg" class="card-img-top">
+
+<div class="card-body">
+
+<h4>Maquiagem para Noivas</h4>
+
+<p>
+Produção completa para o grande dia.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card shadow">
+
+<img src="images/maquiagem2.jpg" class="card-img-top">
+
+<div class="card-body">
+
+<h4>Maquiagem para Festas</h4>
+
+<p>
+Ideal para aniversários e formaturas.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card shadow">
+
+<img src="images/maquiagem3.jpg" class="card-img-top">
+
+<div class="card-body">
+
+<h4>Curso de Automaquiagem</h4>
+
+<p>
+Aprenda técnicas incríveis.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Galeria -->
+
+<section id="galeria" class="container py-5">
+
+<h2 class="text-center mb-5">
+Galeria
+</h2>
+
+<div class="row">
+
+<div class="col-md-4 mb-3">
+<img src="images/maquiagem1.jpg" class="img-fluid rounded">
+</div>
+
+<div class="col-md-4 mb-3">
+<img src="images/maquiagem2.jpg" class="img-fluid rounded">
+</div>
+
+<div class="col-md-4 mb-3">
+<img src="images/maquiagem3.jpg" class="img-fluid rounded">
+</div>
+
+<div class="col-md-4 mb-3">
+<img src="images/maquiagem4.jpg" class="img-fluid rounded">
+</div>
+
+<div class="col-md-4 mb-3">
+<img src="images/maquiagem5.jpg" class="img-fluid rounded">
+</div>
+
+<div class="col-md-4 mb-3">
+<img src="images/maquiagem6.jpg" class="img-fluid rounded">
+</div>
+
+</div>
+
+</section>
+
+<!-- Contato -->
+
+<section id="contato" class="container py-5">
+
+<h2 class="text-center mb-4">
+Contato
+</h2>
+
+<form>
+
+<input class="form-control mb-3" type="text" placeholder="Nome">
+
+<input class="form-control mb-3" type="email" placeholder="Email">
+
+<textarea class="form-control mb-3" rows="5" placeholder="Mensagem"></textarea>
+
+<button class="btn btn-dark w-100">
+Enviar
+</button>
+
+</form>
+
+</section>
+
+<!-- Rodapé -->
+
+<footer class="bg-dark text-white text-center p-4">
+
+<p>
+Colégio Estadual Inêz Vicente Borocz
+</p>
+
+<p>
+Projeto de Férias
+</p>
+
+<p>
+Aluna: Giovana Gomes
+</p>
+
+<p id="relogio"></p>
+
+</footer>
+
+<button id="topo">⬆</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
